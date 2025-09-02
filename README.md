@@ -22,11 +22,11 @@ Built with an automated **ETL pipeline** (10k+ WTO rows), a **Linear Regression*
 
 
 
----
+
 
 ## 🚀 Quickstart
 
-### 1) Prereqs
+### Prereqs
 - Python 3.10+  
 - (Optional) create a virtual env
 
