@@ -21,3 +21,21 @@ Built with an automated **ETL pipeline** (10k+ WTO rows), a **Linear Regression*
 - **Dev:** Jupyter, Git/GitHub
 
 
+
+---
+
+## 🚀 Quickstart
+
+### 1) Prereqs
+- Python 3.10+  
+- (Optional) create a virtual env
+
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+### 2) pip install -r requirements.txt
+### 3) python scripts/etl.py --in data/raw --out data/processed
+### 4) python model/train.py --data data/processed/dataset.csv --save-dir model/artifacts
+### 5) python app/main.py
+# visit http://127.0.0.1:5000
+
